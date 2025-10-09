@@ -1,0 +1,81 @@
+<form>
+    <label for="CatName">Name of Cat:</label>
+    <input type="text" id="CatName" name="CatName" value="" required>
+    <br> <br>
+    <label for="CatAge">Age of Cat:</label>
+    <input type="number" id="CatAge" name="CatAge" required>
+    <br> <br>
+    <label for="days">Days Needed*</label>
+    <label for="monday">Monday</label>
+    <input type="checkbox" id="monday" name="daysNeeded" value="monday">
+    <label for="tuesday">Tuesday</label>
+    <input type="checkbox" id="tuesday" name="daysNeeded" value="tuesday">
+    <label for="wednesday">Wednesday</label>
+    <input type="checkbox" id="wednesday" name="daysNeeded" value="wednesday">
+    <label for="thursday">Thursday</label>     
+    <input type="checkbox" id="thursday" name="daysNeeded" value="thursday">
+    <label for="friday">Friday</label>
+    <input type="checkbox" id="friday" name="daysNeeded" value="friday">
+    <label for="saturday">Saturday</label>
+    <input type="checkbox" id="saturday" name="daysNeeded" value="saturday">
+    <label for="sunday">Sunday</label>
+    <input type="checkbox" id="sunday" name="daysNeeded" value="sunday">
+    <br> <br>
+    <label for="appt">Time Arrive:</label>
+    <input type="time" id="appt" name="appt" required>
+    <br> <br>
+    <label for="ppt">Time Leave:</label>
+    <input type="time" id="ppt" name="ppt" required>
+    <br> <br>
+    <fieldset>
+        <legend>Spayed/Neutered:</legend>
+        <label for="yes">Yes</label>
+        <input type="radio" id="yes" name="spayed" value="yes">
+        <label for="no">No</label>  
+        <input type="radio" id="no" name="spayed" value="no">
+    </fieldset>
+    <br> <br>
+    <label for="diet">Diet::</label>
+    <input type="checkbox" id="diet" name="diet" value="diet">
+    <select>
+        <option value="wet food">Wet Food</option>
+        <option value="dry food">Dry Food</option>
+        <option value="both">Both</option>
+        <option value="none">None</option>
+    </select>
+    <br> <br>
+    <label>Describe Diet:</label>
+    <textarea id="describe" name="describe" rows="4" cols="50"></textarea>
+    <br> <br>
+    <fieldset>
+        <legend>Temparement:</legend>
+        <input type="checkbox" id="friendly" name="temperament" value="friendly">
+        <label for="friendly">Friendly</label>
+        <input type="checkbox" id="shy" name="temperament" value="shy">
+        <label for="shy">Shy</label>
+        <input type="checkbox" id="aggressive" name="temperament" value="aggressive">
+        <label for="aggressive">Aggressive</label>
+        <input type="checkbox" id="independent" name="temperament" value="independent">
+        <label for="independent">Independent</label>
+    </fieldset>
+    <br>
+    <label for="ownerName">Owner's Name:</label>
+    <input type="text" id="ownerName" name="ownerName" required>
+    <br><br>
+    <label>Day Phone:</label>
+    <input type="tel" id="dayPhone" name="dayPhone" required>
+    <br><br>
+    <label>Cell Phone:</label>
+    <input type="tel" id="cellPhone" name="cellPhone">
+    <br><br>
+    <label for="Email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+    <label for="emergencyContact">Emergency Contact Number:</label>
+    <input type="tel" id="emergencyContact" name="emergencyContact" required>
+    <br><br>
+    <label>Contact Phone:</label>
+    <input type="tel" id="contactPhone" name="contactPhone">
+    <br> <br>  
+    <input type="submit" value="Submit">
+</form>
